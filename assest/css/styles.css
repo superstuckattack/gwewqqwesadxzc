@@ -1,0 +1,230 @@
+body {
+    font-family: 'PT Sans', sans-serif; /* Основний шрифт для всього сайту */
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 2rem; /* Відступ від лого до меню */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+    font-weight: 700;
+}
+
+.navbar-nav.ms-auto .nav-link {
+    color: #00bce6; /* Колір для "Особистого кабінету" */
+    font-weight: 700;
+}
+
+.header-dark {
+    background-color: #1F1F1F;
+    padding: 200px 0; /* Збільшили padding для більшого хедера */
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-family: 'Euclid Circular', sans-serif; /* Шрифт для заголовка h1 */
+    font-size: 4.5rem; /* Збільшили розмір тексту */
+    font-weight: 600; /* Semibold */
+    margin-bottom: 30px; /* Збільшили відступ */
+    background: linear-gradient(90deg, #00bce6, #2962ff 50.31%, #d500f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header .slogan {
+    font-size: 2.2rem; /* Збільшили розмір тексту */
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 30px; /* Збільшили відступ */
+}
+
+header .description {
+    font-size: 1.4rem; /* Збільшили розмір тексту */
+    line-height: 1.6;
+    color: #fff;
+}
+
+.stats-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.stats-section h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.stats-section p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.why-choose-us {
+    background: #1A1D22; /* Змінено фон на #1A1D22 */
+    color: #fff;
+    padding: 100px 0;
+}
+
+.why-choose-us h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.accordion-item {
+    background-color: #1A1D22;
+    border: 1px solid #333;
+    margin-bottom: 10px;
+}
+
+.accordion-button {
+    background-color: #1A1D22;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 15px 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #1A1D22;
+    color: #00bce6;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2300bce6'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2300bce6'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-body {
+    background-color: #1A1D22;
+    color: #e0e0e0;
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.reviews-section {
+    padding: 60px 0;
+}
+
+.reviews-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.review-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.review-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.review-info {
+    flex: 1;
+}
+
+.review-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.review-date {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.review-text {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.rating .star {
+    color: gold;
+    font-size: 1.5rem;
+}
+
+.partners-section {
+    background-color: #1A1D22; /* Додано фон для блоку "Наші партнери" */
+    padding: 60px 0;
+}
+
+.partners-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff; /* Змінено колір тексту на білий */
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.partners-section img {
+    filter: brightness(0) invert(1); /* Зробити логотипи білими */
+}
+
+footer {
+    background-color: #343a40;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer h5 {
+    color: #00bce6;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #ccc;
+}
